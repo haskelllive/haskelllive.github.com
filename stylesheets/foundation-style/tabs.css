@@ -20,7 +20,7 @@ dl.tabs dt {
   cursor: default;
   display: block;
   float: left;
-  font-size: 12px;
+  font-size: 14px;
   height: 40px;
   line-height: 40px;
   padding: 0 9px 0 20px;
@@ -40,22 +40,22 @@ dl.tabs dd {
 }
 /* line 15, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/tabs.scss */
 dl.tabs dd a {
-  color: #6f6f6f;
+  color: #babfc4;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   height: 40px;
   line-height: 40px;
-  padding: 0px 23.8px;
+  padding: 0px 26.6px;
 }
 /* line 16, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/tabs.scss */
 dl.tabs dd.active {
-  border-top: 3px solid #2ba6cb;
+  border-top: 3px solid #ff4557;
   margin-top: -3px;
 }
 /* line 17, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/tabs.scss */
 dl.tabs dd.active a {
   cursor: default;
-  color: #3c3c3c;
+  color: #838d95;
   background: #fff;
   border-left: 1px solid #e6e6e6;
   border-right: 1px solid #e6e6e6;
@@ -87,7 +87,7 @@ dl.tabs.vertical dd a {
   border-width: 1px 1px 0 0;
   color: #555;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   height: auto;
   line-height: 1;
   padding: 15px 20px;
@@ -150,7 +150,7 @@ dl.tabs.pill dd.active {
 }
 /* line 41, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/tabs.scss */
 dl.tabs.pill dd.active a {
-  background-color: #2ba6cb;
+  background-color: #ff4557;
   border: none;
   color: #fff;
 }
@@ -161,7 +161,7 @@ dl.tabs.pill.contained {
 }
 /* line 48, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/tabs.scss */
 dl.tabs.two-up dt a, dl.tabs.two-up dd a, dl.tabs.three-up dt a, dl.tabs.three-up dd a, dl.tabs.four-up dt a, dl.tabs.four-up dd a, dl.tabs.five-up dt a, dl.tabs.five-up dd a {
-  padding: 0 17px;
+  padding: 0 19px;
   text-align: center;
   overflow: hidden;
 }
@@ -270,7 +270,7 @@ ul.tabs-content.contained.vertical > li {
   /* line 79, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/tabs.scss */
   .tabs.mobile dd a.active {
     border: none;
-    background: #2ba6cb;
+    background: #ff4557;
     color: #fff;
     margin: 0;
     position: static;

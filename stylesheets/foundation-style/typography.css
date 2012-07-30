@@ -3,35 +3,35 @@
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, p, blockquote, th, td {
   margin: 0;
   padding: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* line 9, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
-  margin-bottom: 17px;
+  margin-bottom: 19px;
 }
 /* line 10, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 p.lead {
-  font-size: 17.5px;
+  font-size: 20px;
   line-height: 1.6;
-  margin-bottom: 17px;
+  margin-bottom: 19px;
 }
 /* line 11, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 p img.left, p img {
-  margin: 17px;
+  margin: 19px;
   margin-left: 0;
 }
 /* line 12, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 p img.right {
-  margin: 17px;
+  margin: 19px;
   margin-right: 0;
 }
 
 /* line 14, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 aside p {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.35;
   font-style: italic;
 }
@@ -40,8 +40,8 @@ aside p {
 h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   line-height: 1.1;
-  margin-bottom: 14px;
-  margin-top: 14px;
+  margin-bottom: 16px;
+  margin-top: 16px;
 }
 /* line 21, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
@@ -52,32 +52,32 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 /* line 24, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 h1 {
-  font-size: 44px;
+  font-size: 50px;
 }
 
 /* line 25, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 h2 {
-  font-size: 37px;
+  font-size: 42px;
 }
 
 /* line 26, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 h3 {
-  font-size: 27px;
+  font-size: 31px;
 }
 
 /* line 27, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 h4 {
-  font-size: 23px;
+  font-size: 26px;
 }
 
 /* line 28, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 h5 {
-  font-size: 17px;
+  font-size: 19px;
 }
 
 /* line 29, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 h6 {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* line 31, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
@@ -94,7 +94,7 @@ hr {
   line-height: 1.3;
   color: #777;
   font-weight: 300;
-  margin-bottom: 17px;
+  margin-bottom: 19px;
 }
 
 /* line 35, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
@@ -124,9 +124,9 @@ code {
 /* Lists ---------------------- */
 /* line 41, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 ul, ol {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
-  margin-bottom: 17px;
+  margin-bottom: 19px;
   list-style-position: outside;
 }
 
@@ -138,7 +138,7 @@ ul li ul {
 }
 /* line 46, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 ul.square, ul.circle, ul.disc {
-  margin-left: 17px;
+  margin-left: 19px;
 }
 /* line 47, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 ul.square {
@@ -182,14 +182,14 @@ blockquote, blockquote p {
 
 /* line 63, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 blockquote {
-  margin: 0 0 17px;
+  margin: 0 0 19px;
   padding: 9px 20px 0 19px;
   border-left: 1px solid #ddd;
 }
 /* line 64, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */
 blockquote cite {
   display: block;
-  font-size: 13px;
+  font-size: 15px;
   color: #555;
 }
 /* line 65, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/typography.scss */

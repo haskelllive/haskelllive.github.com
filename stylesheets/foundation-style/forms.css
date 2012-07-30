@@ -25,7 +25,7 @@ form {
 
 /* line 17, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
 label {
-  font-size: 14px;
+  font-size: 16px;
   color: #4d4d4d;
   cursor: pointer;
   display: block;
@@ -39,7 +39,7 @@ label.right {
 }
 /* line 20, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
 label.inline {
-  line-height: 32px;
+  line-height: 34px;
   margin: 0 0 12px 0;
 }
 
@@ -58,8 +58,8 @@ label.inline {
   width: 100%;
   padding-top: 0;
   padding-bottom: 0;
-  height: 32px;
-  line-height: 31px;
+  height: 34px;
+  line-height: 33px;
 }
 
 /* line 28, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
@@ -110,10 +110,10 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.75);
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 0 12px 0;
   padding: 6px;
-  height: 32px;
+  height: 34px;
   width: 100%;
   -webkit-transition: all 0.15s linear;
   -moz-transition: all 0.15s linear;
@@ -213,46 +213,6 @@ fieldset legend {
 
   /* line 59, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
   input[type="text"].four, textarea.four {
-    width: 100% !important;
-  }
-
-  /* line 59, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
-  input[type="text"].five, textarea.five {
-    width: 100% !important;
-  }
-
-  /* line 59, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
-  input[type="text"].six, textarea.six {
-    width: 100% !important;
-  }
-
-  /* line 59, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
-  input[type="text"].seven, textarea.seven {
-    width: 100% !important;
-  }
-
-  /* line 59, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
-  input[type="text"].eight, textarea.eight {
-    width: 100% !important;
-  }
-
-  /* line 59, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
-  input[type="text"].nine, textarea.nine {
-    width: 100% !important;
-  }
-
-  /* line 59, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
-  input[type="text"].ten, textarea.ten {
-    width: 100% !important;
-  }
-
-  /* line 59, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
-  input[type="text"].eleven, textarea.eleven {
-    width: 100% !important;
-  }
-
-  /* line 59, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
-  input[type="text"].twelve, textarea.twelve {
     width: 100% !important;
   }
 }
@@ -424,7 +384,7 @@ form.custom div.custom.dropdown ul {
 /* line 105, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
 form.custom div.custom.dropdown ul li {
   color: #555;
-  font-size: 13px;
+  font-size: 15px;
   cursor: pointer;
   padding: 3px 38px 3px 6px;
   min-height: 18px;
@@ -435,7 +395,7 @@ form.custom div.custom.dropdown ul li {
 }
 /* line 106, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
 form.custom div.custom.dropdown ul li.selected {
-  background: #cdebf5;
+  background: white;
   color: #000;
 }
 /* line 107, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
@@ -446,7 +406,7 @@ form.custom div.custom.dropdown ul li.selected:after {
 }
 /* line 109, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
 form.custom div.custom.dropdown ul li:hover {
-  background-color: #e3f4f9;
+  background-color: white;
   color: #222;
 }
 /* line 110, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
@@ -454,11 +414,11 @@ form.custom div.custom.dropdown ul li:hover:after {
   content: "\2013";
   position: absolute;
   right: 10px;
-  color: #8ed3e7;
+  color: #ffc4ca;
 }
 /* line 112, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/forms.scss */
 form.custom div.custom.dropdown ul li.selected:hover {
-  background: #cdebf5;
+  background: white;
   cursor: default;
   color: #000;
 }

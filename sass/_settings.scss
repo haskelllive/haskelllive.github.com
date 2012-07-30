@@ -4,18 +4,21 @@
 
 // Grid Settings
 
-// $rowWidth: 1000px;
+$rowWidth: 670px;
+$grid-min-width: $rowWidth;
 // $columnGutter: 30px;
-// $totalColumns: 12;
+$totalColumns: 4;
 // $mobileTotalColumns: 4;
 
 // Colors Settings
 
-// $mainColor: #2ba6cb;
-// $secondaryColor: #e9e9e9;
+
+$backgroundColor: #373c40;
+$mainColor: #ff4557;
+$secondaryColor: #bee8e0;
 // $alertColor: #c60f13;
 // $successColor: #5da423;
-// $txtColor: #222;
+$txtColor: #6a737b;
 // $highlightColor: #ffff99;
 // $black: #000;
 // $white: #fff;
@@ -37,7 +40,7 @@
 
 // Tab Settings
 
-// $tabHeight: 40px;
+$tabHeight: 40px;
 
 // Nav Bar Settings
 
@@ -46,5 +49,5 @@
 
 // Modular Scale
 // $ratio: $golden;
-// $base-size: 14px 44px;
+$base-size: 16px 50px;
 

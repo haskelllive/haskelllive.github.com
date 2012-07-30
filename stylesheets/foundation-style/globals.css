@@ -19,7 +19,7 @@ body {
   font-size: 14px;
   font-size: 1.4rem;
   line-height: 1;
-  color: #222222;
+  color: #6a737b;
   position: relative;
   -webkit-font-smoothing: antialiased;
 }
@@ -27,19 +27,19 @@ body {
 /* Links ---------------------- */
 /* line 11, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/globals.scss */
 a {
-  color: #2ba6cb;
+  color: #ff4557;
   text-decoration: none;
   line-height: inherit;
 }
 
 /* line 12, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/globals.scss */
 a:hover {
-  color: #2795b6;
+  color: #ff2b40;
 }
 
 /* line 13, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/globals.scss */
 a:focus {
-  color: #2ba6cb;
+  color: #ff4557;
   outline: none;
 }
 

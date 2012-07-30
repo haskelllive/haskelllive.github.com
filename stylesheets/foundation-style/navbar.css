@@ -36,8 +36,8 @@
 }
 /* line 11, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/navbar.scss */
 .nav-bar > li.active {
-  background: #2ba6cb;
-  border-color: #2284a1;
+  background: #ff4557;
+  border-color: #ff1229;
 }
 /* line 12, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/navbar.scss */
 .nav-bar > li.active > a {
@@ -46,7 +46,7 @@
 }
 /* line 13, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/navbar.scss */
 .nav-bar > li.active:hover {
-  background: #2ba6cb;
+  background: #ff4557;
   cursor: default;
 }
 /* line 15, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/navbar.scss */
@@ -106,7 +106,7 @@
   padding: 0 20px;
   display: block;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
 }
 /* line 34, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/navbar.scss */
 .nav-bar > li > input {
@@ -162,7 +162,7 @@
 /* line 51, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/navbar.scss */
 .flyout p {
   line-height: 1.2;
-  font-size: 13px;
+  font-size: 15px;
 }
 /* line 52, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/navbar.scss */
 .flyout *:first-child {
@@ -207,7 +207,7 @@ ul.flyout li a, .nav-bar li ul li a {
   border-width: 1px 1px 0 0;
   color: #555;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   height: auto;
   line-height: 1;
   padding: 15px 20px;

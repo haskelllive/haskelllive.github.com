@@ -6,132 +6,87 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8" />
+  <meta charset="utf-8" />
 
-	<!-- Set the viewport width to device width for mobile -->
-	<meta name="viewport" content="width=device-width" />
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
 
-	<title>Welcome to Foundation</title>
+  <title>Welcome to Foundation</title>
 
-	<!-- Included CSS Files -->
-	<link rel="stylesheet" href="stylesheets/foundation-style/globals.css">
-	<link rel="stylesheet" href="stylesheets/foundation-style/typography.css">
-	<link rel="stylesheet" href="stylesheets/foundation-style/grid.css">
-	<link rel="stylesheet" href="stylesheets/foundation-style/ui.css">
-	<link rel="stylesheet" href="stylesheets/foundation-style/buttons.css">
-	<link rel="stylesheet" href="stylesheets/foundation-style/tabs.css">
-	<link rel="stylesheet" href="stylesheets/foundation-style/navbar.css">
-	<link rel="stylesheet" href="stylesheets/foundation-style/forms.css">
-	<link rel="stylesheet" href="stylesheets/foundation-style/orbit.css">
-	<link rel="stylesheet" href="stylesheets/foundation-style/reveal.css">
-	<link rel="stylesheet" href="stylesheets/app.css">
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="stylesheets/foundation-style/globals.css">
+  <link rel="stylesheet" href="stylesheets/foundation-style/typography.css">
+  <link rel="stylesheet" href="stylesheets/foundation-style/grid.css">
+  <link rel="stylesheet" href="stylesheets/foundation-style/ui.css">
+  <link rel="stylesheet" href="stylesheets/foundation-style/buttons.css">
+  <link rel="stylesheet" href="stylesheets/foundation-style/tabs.css">
+  <link rel="stylesheet" href="stylesheets/foundation-style/navbar.css">
+  <link rel="stylesheet" href="stylesheets/foundation-style/forms.css">
+  <link rel="stylesheet" href="stylesheets/foundation-style/orbit.css">
+  <link rel="stylesheet" href="stylesheets/foundation-style/reveal.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
 
-	<script src="javascripts/foundation/modernizr.foundation.js"></script>
+  <script src="javascripts/foundation/modernizr.foundation.js"></script>
 
-	<!-- IE Fix for HTML5 Tags -->
-	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
 </head>
 <body>
 
-	<div class="row">
-		<div class="twelve columns">
-			<h2>Welcome to Foundation</h2>
-			<p>This is version 3.0.6 released on July 20, 2012</p>
-			<hr />
-		</div>
-	</div>
+  <header class="row">
+    <div class="four columns">
+      <ul class="link-list nav">
+        <li>
+          <a href="#" data-reveal-id="aboutModal">About</a>
+        </li>
+      </ul>
+      <h1><a href="http://haskelllive.com">Haskell Live</a></h1>
+      <h4 class="subheader">a live coding adventure</h4>
+    </div>
+  </header>
 
-	<div class="row">
-		<div class="eight columns">
-			<h3>The Grid</h3>
+  <section class="row">
+    <article class="four columns">
+      <h2><a href="#">Episode 1: The Chess Board</a></h2>
 
-			<!-- Grid Example -->
-			<div class="row">
-				<div class="twelve columns">
-					<div class="panel">
-						<p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="six columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-				<div class="six columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="four columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="four columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="four columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-			</div>
+      <p>
+        In this series we're going to build a chess engine from scratch. Today
+        we will teach our engine a basic representation of chess pieces and
+        boards, along with some helper functions to show them and read them.
+      </p>
 
-			<h3>Tabs</h3>
-			<dl class="tabs">
-				<dd class="active"><a href="#simple1">Simple Tab 1</a></dd>
-				<dd><a href="#simple2">Simple Tab 2</a></dd>
-				<dd><a href="#simple3">Simple Tab 3</a></dd>
-			</dl>
-
-			<ul class="tabs-content">
-				<li class="active" id="simple1Tab">This is simple tab 1's content. Pretty neat, huh?</li>
-				<li id="simple2Tab">This is simple tab 2's content. Now you see it!</li>
-				<li id="simple3Tab">This is simple tab 3's content. It's, you know...okay.</li>
-			</ul>
-
-			<h3>Buttons</h3>
-
-      <div class="row">
-        <div class="six columns">
-          <p><a href="#" class="small button">Small Button</a></p>
-          <p><a href="#" class="button">Medium Button</a></p>
-          <p><a href="#" class="large button">Large Button</a></p>
-        </div>
-        <div class="six columns">
-          <p><a href="#" class="small alert button">Small Alert Button</a></p>
-          <p><a href="#" class="success button">Medium Success Button</a></p>
-          <p><a href="#" class="large secondary button">Large Secondary Button</a></p>
-        </div>
+      <div class="flex-video widescreen vimeo">
+        <iframe width="640" height="360" src="http://www.youtube.com/embed/ScS8Q32lMxA?rel=0&controls=0" frameborder="0" allowfullscreen></iframe>
       </div>
-		</div>
+    </article>
+  </section>
 
-		<div class="four columns">
-			<h4>Getting Started</h4>
-			<p>We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
+  <div id="aboutModal" class="reveal-modal">
+    <h2>About Haskell Live</h2>
+    <p>
+      Haskell Live is a free (as in beer), creative-commons attribution licensed series of
+      live coding videos that teaches basic to intermediate Haskell
+      concepts.
+    </p>
+    <p>
+      The intro and exit music are from the amazing chiptunes funk track 
+      <a href="http://freemusicarchive.org/music/Torben_Metal_Hansen/FM_FUNK_MADDNESS/05_Cascades">Cascades</a>
+      by
+      <a href="http://freemusicarchive.org/music/Torben_Metal_Hansen/">Torben Metal Hansen</a>
+      from the SOUNDSHOCK album <a href="http://freemusicarchive.org/music/SOUNDSHOCK/FM_FUNK_MADDNESS/">FM FUNK MADDNESS!!</a>.
+    </p>
+    <p>
+      Brought to you with love by <a href="http://reinh.com">Rein Henrichs</a>
+      (<a href="http://twitter.com/reinh"><span class="glyph social">e</span>reinh</a>).
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
 
-			<h4>Other Resources</h4>
-			<p>Once you've exhausted the fun in this document, you should check out:</p>
-			<ul class="disc">
-				<li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
-				<li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
-				<li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
-			</ul>
-		</div>
-	</div>
-	
-	<!-- Included JS Files (Uncompressed) -->
-	<!--
-	<script src="jquery.js"></script>
+  <!-- Included JS Files (Uncompressed) -->
+  <!--
+  <script src="jquery.js"></script>
   <script src="javascripts/foundation/modernizr.foundation.js"></script>
   <script src="javascripts/foundation/jquery.placeholder.js"></script>
   <script src="javascripts/foundation/jquery.foundation.alerts.js"></script>
@@ -144,14 +99,14 @@
   <script src="javascripts/foundation/jquery.foundation.reveal.js"></script>
   <script src="javascripts/foundation/jquery.foundation.orbit.js"></script>
   -->
-	
-	<!-- Included JS Files (Compressed) -->
-	<script src="javascripts/jquery.min.js"></script>
-	<script src="javascripts/foundation.min.js"></script>
-	
-	<!-- Application Javascript, safe to override -->
-	<script src="javascripts/app.js"></script>
-	
+
+  <!-- Included JS Files (Compressed) -->
+  <script src="javascripts/jquery.min.js"></script>
+  <script src="javascripts/foundation.min.js"></script>
+
+  <!-- Application Javascript, safe to override -->
+  <script src="javascripts/app.js"></script>
+
 
 </body>
 </html>

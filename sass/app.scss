@@ -1,10 +1,11 @@
+@import "compass/layout";
+
 @import "foundation/base";
+@import "settings";
 /* --------------------------------------------------
    Table of Contents
 -----------------------------------------------------
 :: Shared Styles
-:: Page Name 1
-:: Page Name 2
 */
 
 
@@ -12,16 +13,76 @@
    Shared Styles
 ----------------------------------------- */
 
+.row { min-width: $rowWidth; }
 
+.label.tertiary {
+  background-color: $txtColor;
+  color: $backgroundColor;
+}
+
+body {
+  background-color: $backgroundColor;
+  font-family: Brevia, Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: -0.05em;
+  font-weight: 900;
+}
+
+a:hover {color: $mainColor * 0.85;}
+
+
+body > header {
+  $headerFontSize: 112px;
+
+  ul.link-list.nav {
+    margin-bottom: 0;
+
+    a {
+      color: $txtColor;
+      &:hover { color: $secondaryColor; }
+    }
+  }
+
+  h1 {
+    text-align: center;
+    color: $secondaryColor;
+    a { color: $secondaryColor; }
+    a:hover { color: saturate($secondaryColor, 20%) }
+    margin: 0;
+    font-size: $headerFontSize;
+  }
+
+  h4.subheader {
+    margin-top: -0.6em;
+    font-style: italic;
+    font-size: $headerFontSize / 3;
+    padding-left: 25%;
+    color: $txtColor;
+  }
+
+}
+
+article h2 {
+  font-weight: 600;
+}
 
 /* -----------------------------------------
-   Page Name 1
+   Foundation Icons Social
 ----------------------------------------- */
 
+@font-face {
+    font-family: 'FoundationIconsSocial';
+    src: url('../fonts/foundation-icons-social.eot');
+    src: url('../fonts/foundation-icons-social.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/foundation-icons-social.woff') format('woff'),
+         url('../fonts/foundation-icons-social.ttf') format('truetype'),
+         url('../fonts/foundation-icons-social.svg#FoundationIconsSocial') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
-
-
-/* -----------------------------------------
-   Page Name 2
------------------------------------------ */
-
+.glyph { cursor: default; font-size: 16px; line-height: 1; }
+.glyph.social { font-family: 'FoundationIconsSocial'; }
