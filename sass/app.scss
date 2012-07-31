@@ -82,7 +82,6 @@ section {
     }
 
     .flex-video {
-      border: 1px solid fade-out($backgroundColor * 1.1, 0.5);
       @include box-shadow(rgba(0,0,0,0.2) 0 1px 1px);
     }
   }

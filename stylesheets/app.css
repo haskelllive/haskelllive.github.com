@@ -86,7 +86,6 @@ section article h2 {
 }
 /* line 84, ../sass/app.scss */
 section article .flex-video {
-  border: 1px solid rgba(60, 66, 70, 0.5);
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
   box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
@@ -103,14 +102,14 @@ section article .flex-video {
   font-style: normal;
 }
 
-/* line 107, ../sass/app.scss */
+/* line 106, ../sass/app.scss */
 .glyph {
   cursor: default;
   font-size: 16px;
   line-height: 1;
 }
 
-/* line 108, ../sass/app.scss */
+/* line 107, ../sass/app.scss */
 .glyph.social {
   font-family: 'FoundationIconsSocial';
 }
