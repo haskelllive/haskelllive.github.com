@@ -1,13 +1,19 @@
-@import "compass/layout";
-
 @import "foundation/base";
 @import "settings";
 /* --------------------------------------------------
    Table of Contents
 -----------------------------------------------------
+:: Mixins
 :: Shared Styles
 */
 
+/* -----------------------------------------
+   Mixins
+----------------------------------------- */
+
+@mixin header-shadow {
+  @include text-shadow(rgba(0,0,0,0.1) 0 1px 1px);
+}
 
 /* -----------------------------------------
    Shared Styles
@@ -23,6 +29,10 @@
 body {
   background-color: $backgroundColor;
   font-family: "brevia", Brevia, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  @include header-shadow;
 }
 
 h1 {
@@ -65,8 +75,18 @@ body > header {
 
 }
 
-article h2 {
-  font-weight: 600;
+section {
+  article {
+    h2 {
+      font-weight: 600;
+    }
+
+    .flex-video {
+      border: 1px solid fade-out($backgroundColor * 1.1, 0.5);
+      @include box-shadow(rgba(0,0,0,0.2) 0 1px 1px);
+    }
+  }
+
 }
 
 /* -----------------------------------------

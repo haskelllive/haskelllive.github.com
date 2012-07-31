@@ -1,68 +1,77 @@
 /* --------------------------------------------------
    Table of Contents
 -----------------------------------------------------
+:: Mixins
 :: Shared Styles
 */
 /* -----------------------------------------
+   Mixins
+----------------------------------------- */
+/* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
-/* line 16, ../sass/app.scss */
+/* line 22, ../sass/app.scss */
 .row {
   min-width: 670px;
 }
 
-/* line 18, ../sass/app.scss */
+/* line 24, ../sass/app.scss */
 .label.tertiary {
   background-color: #6a737b;
   color: #373c40;
 }
 
-/* line 23, ../sass/app.scss */
+/* line 29, ../sass/app.scss */
 body {
   background-color: #373c40;
-  font-family: Brevia, Arial, sans-serif;
+  font-family: "brevia", Brevia, Arial, sans-serif;
 }
 
-/* line 28, ../sass/app.scss */
+/* line 34, ../sass/app.scss */
+h1, h2, h3, h4, h5 {
+  text-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
+}
+
+/* line 38, ../sass/app.scss */
 h1 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   letter-spacing: -0.05em;
   font-weight: 900;
 }
 
-/* line 34, ../sass/app.scss */
+/* line 44, ../sass/app.scss */
 a:hover {
   color: #d83a49;
 }
 
-/* line 40, ../sass/app.scss */
+/* line 50, ../sass/app.scss */
 body > header ul.link-list.nav {
   margin-bottom: 0;
 }
-/* line 43, ../sass/app.scss */
+/* line 53, ../sass/app.scss */
 body > header ul.link-list.nav a {
   color: #6a737b;
 }
-/* line 45, ../sass/app.scss */
+/* line 55, ../sass/app.scss */
 body > header ul.link-list.nav a:hover {
   color: #bee8e0;
 }
-/* line 49, ../sass/app.scss */
+/* line 59, ../sass/app.scss */
 body > header h1 {
   text-align: center;
   color: #bee8e0;
   margin: 0;
   font-size: 112px;
 }
-/* line 52, ../sass/app.scss */
+/* line 62, ../sass/app.scss */
 body > header h1 a {
   color: #bee8e0;
 }
-/* line 53, ../sass/app.scss */
+/* line 63, ../sass/app.scss */
 body > header h1 a:hover {
   color: #b5f1e5;
 }
-/* line 58, ../sass/app.scss */
+/* line 68, ../sass/app.scss */
 body > header h4.subheader {
   margin-top: -0.6em;
   font-style: italic;
@@ -71,9 +80,16 @@ body > header h4.subheader {
   color: #6a737b;
 }
 
-/* line 68, ../sass/app.scss */
-article h2 {
+/* line 80, ../sass/app.scss */
+section article h2 {
   font-weight: 600;
+}
+/* line 84, ../sass/app.scss */
+section article .flex-video {
+  border: 1px solid rgba(60, 66, 70, 0.5);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
 }
 
 /* -----------------------------------------
@@ -87,14 +103,14 @@ article h2 {
   font-style: normal;
 }
 
-/* line 87, ../sass/app.scss */
+/* line 107, ../sass/app.scss */
 .glyph {
   cursor: default;
   font-size: 16px;
   line-height: 1;
 }
 
-/* line 88, ../sass/app.scss */
+/* line 108, ../sass/app.scss */
 .glyph.social {
   font-family: 'FoundationIconsSocial';
 }
