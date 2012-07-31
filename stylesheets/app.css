@@ -23,7 +23,7 @@
 
 /* line 29, ../sass/app.scss */
 body {
-  background-color: #373c40;
+  background: #373c40 url("/images/grey_noise_diagonal.png");
   font-family: "brevia", Brevia, Arial, sans-serif;
 }
 
