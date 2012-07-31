@@ -44,7 +44,7 @@ a:hover {color: $mainColor * 0.85;}
 
 
 body > header {
-  $headerFontSize: 112px;
+  $headerFontSize: 1224x;
 
   ul.link-list.nav {
     margin-bottom: 0;
@@ -65,7 +65,7 @@ body > header {
   }
 
   h4.subheader {
-    margin-top: -0.6em;
+    margin-top: -0.7em;
     font-style: italic;
     font-size: $headerFontSize / 3;
     padding-left: 25%;
