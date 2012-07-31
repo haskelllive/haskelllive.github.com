@@ -17,7 +17,7 @@
 
 /* line 24, ../sass/app.scss */
 .label.tertiary {
-  background-color: #6a737b;
+  background-color: #747e87;
   color: #373c40;
 }
 
@@ -50,7 +50,7 @@ body > header ul.link-list.nav {
 }
 /* line 53, ../sass/app.scss */
 body > header ul.link-list.nav a {
-  color: #6a737b;
+  color: #747e87;
 }
 /* line 55, ../sass/app.scss */
 body > header ul.link-list.nav a:hover {
@@ -77,7 +77,7 @@ body > header h4.subheader {
   font-style: italic;
   font-size: 32px;
   padding-left: 25%;
-  color: #6a737b;
+  color: #747e87;
 }
 
 /* line 80, ../sass/app.scss */

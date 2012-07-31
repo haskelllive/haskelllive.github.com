@@ -40,7 +40,7 @@ dl.tabs dd {
 }
 /* line 15, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/tabs.scss */
 dl.tabs dd a {
-  color: #babfc4;
+  color: #c6cace;
   display: block;
   font-size: 16px;
   height: 40px;
@@ -55,7 +55,7 @@ dl.tabs dd.active {
 /* line 17, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/tabs.scss */
 dl.tabs dd.active a {
   cursor: default;
-  color: #838d95;
+  color: #8f979f;
   background: #fff;
   border-left: 1px solid #e6e6e6;
   border-right: 1px solid #e6e6e6;
