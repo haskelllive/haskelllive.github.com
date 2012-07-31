@@ -60,7 +60,7 @@ body > header h1 {
   text-align: center;
   color: #bee8e0;
   margin: 0;
-  font-size: 1224x;
+  font-size: 122px;
 }
 /* line 61, ../sass/app.scss */
 body > header h1 a {
@@ -74,7 +74,7 @@ body > header h1 a:hover {
 body > header h4.subheader {
   margin-top: -0.7em;
   font-style: italic;
-  font-size: 408x;
+  font-size: 40.66667px;
   padding-left: 25%;
   color: #6a737b;
 }
