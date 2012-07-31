@@ -16,62 +16,70 @@
 }
 
 /* line 24, ../sass/app.scss */
+.label {
+  text-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
+}
+
+/* line 29, ../sass/app.scss */
 .label.tertiary {
   background-color: #747e87;
   color: #373c40;
 }
 
-/* line 29, ../sass/app.scss */
+/* line 34, ../sass/app.scss */
 body {
   background: #373c40 url("/images/grey_noise_diagonal.png");
   font-family: "brevia", Brevia, Arial, sans-serif;
 }
 
-/* line 34, ../sass/app.scss */
+/* line 39, ../sass/app.scss */
 h1, h2, h3, h4, h5 {
   text-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
 }
 
-/* line 38, ../sass/app.scss */
+/* line 43, ../sass/app.scss */
 h1 {
   font-family: "prenton", 'Helvetica Neue', Helvetica, Arial, sans-serif;
   letter-spacing: -0.03em;
   font-weight: 700;
 }
 
-/* line 44, ../sass/app.scss */
+/* line 49, ../sass/app.scss */
 a:hover {
   color: #d83a49;
 }
 
-/* line 50, ../sass/app.scss */
+/* line 55, ../sass/app.scss */
 body > header ul.link-list.nav {
   margin-bottom: 0;
 }
-/* line 53, ../sass/app.scss */
+/* line 58, ../sass/app.scss */
 body > header ul.link-list.nav a {
   color: #747e87;
 }
-/* line 55, ../sass/app.scss */
+/* line 60, ../sass/app.scss */
 body > header ul.link-list.nav a:hover {
   color: #bee8e0;
 }
-/* line 59, ../sass/app.scss */
+/* line 64, ../sass/app.scss */
 body > header h1 {
   text-align: center;
   color: #bee8e0;
   margin: 0;
   font-size: 112px;
 }
-/* line 62, ../sass/app.scss */
+/* line 67, ../sass/app.scss */
 body > header h1 a {
   color: #bee8e0;
 }
-/* line 63, ../sass/app.scss */
+/* line 68, ../sass/app.scss */
 body > header h1 a:hover {
   color: #b5f1e5;
 }
-/* line 68, ../sass/app.scss */
+/* line 73, ../sass/app.scss */
 body > header h4.subheader {
   margin-top: -0.6em;
   font-style: italic;
@@ -80,11 +88,11 @@ body > header h4.subheader {
   color: #747e87;
 }
 
-/* line 80, ../sass/app.scss */
+/* line 85, ../sass/app.scss */
 section article h2 {
   font-weight: 600;
 }
-/* line 84, ../sass/app.scss */
+/* line 89, ../sass/app.scss */
 section article .flex-video {
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
@@ -102,14 +110,14 @@ section article .flex-video {
   font-style: normal;
 }
 
-/* line 106, ../sass/app.scss */
+/* line 111, ../sass/app.scss */
 .glyph {
   cursor: default;
   font-size: 16px;
   line-height: 1;
 }
 
-/* line 107, ../sass/app.scss */
+/* line 112, ../sass/app.scss */
 .glyph.social {
   font-family: 'FoundationIconsSocial';
 }
@@ -126,14 +134,14 @@ section article .flex-video {
 }
 
 /* CSS to style glyphs */
-/* line 125, ../sass/app.scss */
+/* line 130, ../sass/app.scss */
 .glyph {
   cursor: default;
   font-size: 16px;
   line-height: 1;
 }
 
-/* line 126, ../sass/app.scss */
+/* line 131, ../sass/app.scss */
 .glyph.general {
   font-family: "FoundationIconsGeneral";
 }
