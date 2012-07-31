@@ -54,7 +54,7 @@ a:hover {
 
 /* line 55, ../sass/app.scss */
 body > header ul.link-list.nav {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 /* line 58, ../sass/app.scss */
 body > header ul.link-list.nav a {
@@ -62,22 +62,22 @@ body > header ul.link-list.nav a {
 }
 /* line 60, ../sass/app.scss */
 body > header ul.link-list.nav a:hover {
-  color: #bee8e0;
+  color: #b5f1e5;
 }
 /* line 64, ../sass/app.scss */
 body > header h1 {
   text-align: center;
-  color: #bee8e0;
+  color: #b5f1e5;
   margin: 0;
   font-size: 112px;
 }
 /* line 67, ../sass/app.scss */
 body > header h1 a {
-  color: #bee8e0;
+  color: #b5f1e5;
 }
 /* line 68, ../sass/app.scss */
 body > header h1 a:hover {
-  color: #b5f1e5;
+  color: #acfaeb;
 }
 /* line 73, ../sass/app.scss */
 body > header h4.subheader {

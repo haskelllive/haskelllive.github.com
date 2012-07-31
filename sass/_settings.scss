@@ -15,7 +15,7 @@ $totalColumns: 4;
 
 $backgroundColor: #373c40;
 $mainColor: #ff4557;
-$secondaryColor: #bee8e0;
+$secondaryColor: saturate(#bee8e0, 20%);
 // $alertColor: #c60f13;
 // $successColor: #5da423;
 $txtColor: #6a737b * 1.1;

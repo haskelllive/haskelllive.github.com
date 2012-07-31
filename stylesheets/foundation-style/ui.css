@@ -228,8 +228,8 @@ div.alert-box.alert {
 }
 /* line 146, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/ui.scss */
 div.alert-box.secondary {
-  background-color: #bee8e0;
-  color: #1e564b;
+  background-color: #b5f1e5;
+  color: #136152;
   text-shadow: 0 1px rgba(255, 255, 255, 0.3);
 }
 /* line 148, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/ui.scss */
@@ -290,8 +290,8 @@ div.alert-box a.close:hover, div.alert-box a.close:focus {
 }
 /* line 163, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/ui.scss */
 .label.secondary {
-  background-color: #bee8e0;
-  color: #1e564b;
+  background-color: #b5f1e5;
+  color: #136152;
 }
 
 /* Tooltips ---------------------- */
@@ -465,24 +465,24 @@ div.panel.radius {
 /* line 229, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/ui.scss */
 ul.accordion {
   margin: 0 0 22px 0;
-  border-bottom: 1px solid #bee8e0;
+  border-bottom: 1px solid #b5f1e5;
 }
 /* line 231, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/ui.scss */
 ul.accordion li {
   list-style: none;
   margin: 0;
   padding: 0;
-  border-top: 1px solid #bee8e0;
+  border-top: 1px solid #b5f1e5;
 }
 /* line 233, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/ui.scss */
 ul.accordion li .title {
   cursor: pointer;
-  background: #d1efe9;
+  background: #cbf5ed;
   padding: 15px;
   margin: 0;
   position: relative;
-  border-left: 1px solid #bee8e0;
-  border-right: 1px solid #bee8e0;
+  border-left: 1px solid #b5f1e5;
+  border-right: 1px solid #b5f1e5;
   -webkit-transition: 0.15s background linear;
   -moz-transition: 0.15s background linear;
   -o-transition: 0.15s background linear;
@@ -499,7 +499,7 @@ ul.accordion li .title:after {
   width: 0;
   height: 0;
   border: solid 6px;
-  border-color: transparent #4dc0aa transparent transparent;
+  border-color: transparent #35d8b9 transparent transparent;
   position: absolute;
   right: 15px;
   top: 21px;
@@ -525,14 +525,14 @@ ul.accordion li.active .title:after {
   width: 0;
   height: 0;
   border: solid 6px;
-  border-color: #4dc0aa transparent transparent transparent;
+  border-color: #35d8b9 transparent transparent transparent;
 }
 /* line 247, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/ui.scss */
 ul.accordion li.active .content {
   background: white;
   display: block;
-  border-left: 1px solid #bee8e0;
-  border-right: 1px solid #bee8e0;
+  border-left: 1px solid #b5f1e5;
+  border-right: 1px solid #b5f1e5;
 }
 
 /* Side Nav ---------------------- */
@@ -655,9 +655,9 @@ ul.pagination li.current a:hover {
 /* line 296, ../../../../../.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/zurb-foundation-3.0.6/stylesheets/foundation/ui.scss */
 ul.breadcrumbs {
   display: block;
-  background: #d1efe9;
+  background: #cbf5ed;
   padding: 6px 10px 7px;
-  border: 1px solid #bee8e0;
+  border: 1px solid #b5f1e5;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
