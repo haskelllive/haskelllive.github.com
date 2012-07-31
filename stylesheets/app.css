@@ -73,9 +73,9 @@ body > header h1 a:hover {
 }
 /* line 68, ../sass/app.scss */
 body > header h4.subheader {
-  margin-top: -0.7em;
+  margin-top: -0.6em;
   font-style: italic;
-  font-size: 37.33333px;
+  font-size: 32px;
   padding-left: 25%;
   color: #6a737b;
 }
