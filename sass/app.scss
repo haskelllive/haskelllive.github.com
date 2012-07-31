@@ -36,7 +36,8 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-family: "prenton-condensed", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "prenton", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: -0.05em;
   font-weight: 700;
 }
 
@@ -44,7 +45,7 @@ a:hover {color: $mainColor * 0.85;}
 
 
 body > header {
-  $headerFontSize: 122px;
+  $headerFontSize: 112px;
 
   ul.link-list.nav {
     margin-bottom: 0;

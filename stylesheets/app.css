@@ -34,56 +34,57 @@ h1, h2, h3, h4, h5 {
 
 /* line 38, ../sass/app.scss */
 h1 {
-  font-family: "prenton-condensed", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "prenton", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: -0.05em;
   font-weight: 700;
 }
 
-/* line 43, ../sass/app.scss */
+/* line 44, ../sass/app.scss */
 a:hover {
   color: #d83a49;
 }
 
-/* line 49, ../sass/app.scss */
+/* line 50, ../sass/app.scss */
 body > header ul.link-list.nav {
   margin-bottom: 0;
 }
-/* line 52, ../sass/app.scss */
+/* line 53, ../sass/app.scss */
 body > header ul.link-list.nav a {
   color: #6a737b;
 }
-/* line 54, ../sass/app.scss */
+/* line 55, ../sass/app.scss */
 body > header ul.link-list.nav a:hover {
   color: #bee8e0;
 }
-/* line 58, ../sass/app.scss */
+/* line 59, ../sass/app.scss */
 body > header h1 {
   text-align: center;
   color: #bee8e0;
   margin: 0;
-  font-size: 122px;
+  font-size: 112px;
 }
-/* line 61, ../sass/app.scss */
+/* line 62, ../sass/app.scss */
 body > header h1 a {
   color: #bee8e0;
 }
-/* line 62, ../sass/app.scss */
+/* line 63, ../sass/app.scss */
 body > header h1 a:hover {
   color: #b5f1e5;
 }
-/* line 67, ../sass/app.scss */
+/* line 68, ../sass/app.scss */
 body > header h4.subheader {
   margin-top: -0.7em;
   font-style: italic;
-  font-size: 40.66667px;
+  font-size: 37.33333px;
   padding-left: 25%;
   color: #6a737b;
 }
 
-/* line 79, ../sass/app.scss */
+/* line 80, ../sass/app.scss */
 section article h2 {
   font-weight: 600;
 }
-/* line 83, ../sass/app.scss */
+/* line 84, ../sass/app.scss */
 section article .flex-video {
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
@@ -101,14 +102,14 @@ section article .flex-video {
   font-style: normal;
 }
 
-/* line 105, ../sass/app.scss */
+/* line 106, ../sass/app.scss */
 .glyph {
   cursor: default;
   font-size: 16px;
   line-height: 1;
 }
 
-/* line 106, ../sass/app.scss */
+/* line 107, ../sass/app.scss */
 .glyph.social {
   font-family: 'FoundationIconsSocial';
 }
@@ -125,14 +126,14 @@ section article .flex-video {
 }
 
 /* CSS to style glyphs */
-/* line 124, ../sass/app.scss */
+/* line 125, ../sass/app.scss */
 .glyph {
   cursor: default;
   font-size: 16px;
   line-height: 1;
 }
 
-/* line 125, ../sass/app.scss */
+/* line 126, ../sass/app.scss */
 .glyph.general {
   font-family: "FoundationIconsGeneral";
 }
