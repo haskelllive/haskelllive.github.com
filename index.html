@@ -1,143 +1,28 @@
-<!DOCTYPE html>
+---
+layout: default
+title: "A Live Coding Adventure"
+---
 
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-  <meta charset="utf-8" />
+{% assign first_post = site.posts.first %}
 
-  <!-- Set the viewport width to device width for mobile -->
-  <meta name="viewport" content="width=device-width" />
+<section class="row first-post">
+  <article class="four columns">
+    {{ first_post.content }}
+  </article>
+</section>
 
-  <title>Haskell Live: A Live Coding Adventure</title>
+<section class="row episodes" id="episode-list">
+  <div class="four columns">
+    <h3>Episodes</h3>
+    <ul class="episodes unstyled">
+      {% for post in site.posts %}
+      <li>
+        <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+        {{ post.description | markdownify }}
+      </li>
+      {% endfor %}
 
-  <!-- Included CSS Files -->
-  <link rel="stylesheet" href="stylesheets/foundation-style/globals.css">
-  <link rel="stylesheet" href="stylesheets/foundation-style/typography.css">
-  <link rel="stylesheet" href="stylesheets/foundation-style/grid.css">
-  <link rel="stylesheet" href="stylesheets/foundation-style/ui.css">
-  <link rel="stylesheet" href="stylesheets/foundation-style/buttons.css">
-  <link rel="stylesheet" href="stylesheets/foundation-style/tabs.css">
-  <link rel="stylesheet" href="stylesheets/foundation-style/navbar.css">
-  <link rel="stylesheet" href="stylesheets/foundation-style/forms.css">
-  <link rel="stylesheet" href="stylesheets/foundation-style/orbit.css">
-  <link rel="stylesheet" href="stylesheets/foundation-style/reveal.css">
-  <link rel="stylesheet" href="stylesheets/app.css">
-
-  <script src="javascripts/foundation/modernizr.foundation.js"></script>
-
-  <!-- IE Fix for HTML5 Tags -->
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-
-  <!-- Typekit -->
-  <script type="text/javascript" src="//use.typekit.net/jdk6tym.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-  <!-- guag.es -->
-  <script type="text/javascript">
-    var _gauges = _gauges || [];
-    (function() {
-     var t   = document.createElement('script');
-     t.type  = 'text/javascript';
-     t.async = true;
-     t.id    = 'gauges-tracker';
-     t.setAttribute('data-site-id', '50199978f5a1f573d3000009');
-     t.src = '//secure.gaug.es/track.js';
-     var s = document.getElementsByTagName('script')[0];
-     s.parentNode.insertBefore(t, s);
-     })();
-   </script>
-
-</head>
-<body>
-
-  <header class="row">
-    <div class="four columns">
-      <ul class="link-list nav">
-        <li>
-          <a href="#" data-reveal-id="aboutModal">About</a>
-        </li>
-      </ul>
-      <h1><a href="http://haskelllive.com">Haskell&nbsp;Live</a></h1>
-      <h4 class="subheader">a live coding adventure</h4>
-    </div>
-  </header>
-
-  <section class="row">
-    <article class="four columns">
-      <h2><a href="#">Episode 1: The Chess Board</a></h2>
-
-      <p>
-        In this series we're going to build a chess engine from scratch. Today
-        we will teach our engine a basic representation of chess pieces and
-        boards, along with some helper functions to show them and read them.
-      </p>
-
-      <p>
-        Get the code: <a href="https://github.com/haskelllive/haskelllive/tree/episode-1">github.com/haskelllive/haskelllive/tree/episode-1</a><br>
-        Questions or comments? <a href="https://github.com/haskelllive/haskelllive/issues">Let's talk it out on GitHub!</a>
-      </p>
-
-      <p>
-        <span class="round label">note</span> We recommend that you watch this video in full screen at 1080p.
-      </p>
-
-      <div class="flex-video widescreen vimeo">
-        <iframe width="640" height="360" src="http://www.youtube.com/embed/ScS8Q32lMxA?rel=0&autohide=1&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-      </div>
-
-      <p style="text-align: right">
-        <a href="http://www.youtube.com/watch?v=ScS8Q32lMxA">Watch this video on YouTube <span class="glyph social">m</span></a>
-      </p>
-
-    </article>
-  </section>
-
-  <div id="aboutModal" class="reveal-modal">
-    <h2>About Haskell Live</h2>
-    <p>
-      Haskell Live is a free (as in beer), creative-commons attribution licensed series of
-      live coding videos that teach basic to intermediate Haskell concepts.
-    </p>
-    <p>
-      The intro and exit music are from the amazing chiptunes funk track 
-      <a href="http://freemusicarchive.org/music/Torben_Metal_Hansen/FM_FUNK_MADDNESS/05_Cascades">Cascades</a>
-      by
-      <a href="http://freemusicarchive.org/music/Torben_Metal_Hansen/">Torben Metal Hansen</a>
-      from the SOUNDSHOCK album <a href="http://freemusicarchive.org/music/SOUNDSHOCK/FM_FUNK_MADDNESS/">FM FUNK MADDNESS!!</a>.
-    </p>
-    <p>
-      Brought to you with love by <a href="http://reinh.com">Rein Henrichs</a>
-      (<a href="http://twitter.com/reinh"><span class="glyph social">e</span>reinh</a>).
-    <a class="close-reveal-modal">&#215;</a>
+    </ul>
   </div>
+</section>
 
-  <!-- Included JS Files (Uncompressed) -->
-  <!--
-  <script src="jquery.js"></script>
-  <script src="javascripts/foundation/modernizr.foundation.js"></script>
-  <script src="javascripts/foundation/jquery.placeholder.js"></script>
-  <script src="javascripts/foundation/jquery.foundation.alerts.js"></script>
-  <script src="javascripts/foundation/jquery.foundation.accordion.js"></script>
-  <script src="javascripts/foundation/jquery.foundation.buttons.js"></script>
-  <script src="javascripts/foundation/jquery.foundation.tooltips.js"></script>
-  <script src="javascripts/foundation/jquery.foundation.forms.js"></script>
-  <script src="javascripts/foundation/jquery.foundation.tabs.js"></script>
-  <script src="javascripts/foundation/jquery.foundation.navigation.js"></script>
-  <script src="javascripts/foundation/jquery.foundation.reveal.js"></script>
-  <script src="javascripts/foundation/jquery.foundation.orbit.js"></script>
-  -->
-
-  <!-- Included JS Files (Compressed) -->
-  <script src="javascripts/jquery.min.js"></script>
-  <script src="javascripts/foundation.min.js"></script>
-
-  <!-- Application Javascript, safe to override -->
-  <script src="javascripts/app.js"></script>
-
-</body>
-</html>

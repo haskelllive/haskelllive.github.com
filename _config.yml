@@ -1,0 +1,5 @@
+future: false
+permalink: ":title"
+pygments: true
+exclude:
+  - sass

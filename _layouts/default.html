@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Haskell Live: {{ page.title }}</title>
+
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="/stylesheets/foundation-style/globals.css">
+  <link rel="stylesheet" href="/stylesheets/foundation-style/typography.css">
+  <link rel="stylesheet" href="/stylesheets/foundation-style/grid.css">
+  <link rel="stylesheet" href="/stylesheets/foundation-style/ui.css">
+  <link rel="stylesheet" href="/stylesheets/foundation-style/buttons.css">
+  <link rel="stylesheet" href="/stylesheets/foundation-style/tabs.css">
+  <link rel="stylesheet" href="/stylesheets/foundation-style/navbar.css">
+  <link rel="stylesheet" href="/stylesheets/foundation-style/forms.css">
+  <link rel="stylesheet" href="/stylesheets/foundation-style/orbit.css">
+  <link rel="stylesheet" href="/stylesheets/foundation-style/reveal.css">
+  <link rel="stylesheet" href="/stylesheets/app.css">
+
+  <script src="/javascripts/foundation/modernizr.foundation.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Typekit -->
+  <script type="text/javascript" src="//use.typekit.net/jdk6tym.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- guag.es -->
+  <script type="text/javascript">
+    var _gauges = _gauges || [];
+    (function() {
+     var t   = document.createElement('script');
+     t.type  = 'text/javascript';
+     t.async = true;
+     t.id    = 'gauges-tracker';
+     t.setAttribute('data-site-id', '50199978f5a1f573d3000009');
+     t.src = '//secure.gaug.es/track.js';
+     var s = document.getElementsByTagName('script')[0];
+     s.parentNode.insertBefore(t, s);
+     })();
+   </script>
+
+</head>
+<body>
+
+  <header class="row">
+    <div class="four columns">
+      <ul class="link-list nav">
+        <li> <a href="#" data-reveal-id="aboutModal">About</a> </li>
+        <li> <a href="/#episode-list">Episodes</a> </li>
+        <!-- Not quite yet <li> <a href="#" class="important">Subscribe <span class="ss-icon">rss</span></a> </li> -->
+      </ul>
+      <h1><a href="http://haskelllive.com">Haskell&nbsp;Live</a></h1>
+      <h4 class="subheader">a live coding adventure</h4>
+    </div>
+  </header>
+
+  {{ content }}
+
+  <div id="aboutModal" class="reveal-modal">
+    <h2>About Haskell Live</h2>
+    <p>
+      Haskell Live is a free (as in beer), creative-commons attribution licensed series of
+      live coding videos that teach basic to intermediate Haskell concepts.
+    </p>
+    <p>
+      The intro and exit music are from the amazing chiptunes funk track 
+      <a href="http://freemusicarchive.org/music/Torben_Metal_Hansen/FM_FUNK_MADDNESS/05_Cascades">Cascades</a>
+      by
+      <a href="http://freemusicarchive.org/music/Torben_Metal_Hansen/">Torben Metal Hansen</a>
+      from the SOUNDSHOCK album <a href="http://freemusicarchive.org/music/SOUNDSHOCK/FM_FUNK_MADDNESS/">FM FUNK MADDNESS!!</a>.
+    </p>
+    <p>
+      Brought to you with love by <a href="http://reinh.com">Rein Henrichs</a>.
+    </p>
+
+    <p class="giant centered">
+      <a href="http://twitter.com/reinh">       <span class="ss-social-circle has-tip tip-top no-style" title="Twitter">twitter</span></a>
+      <a href="http://github.com/haskelllive">        <span class="ss-social-circle has-tip tip-top no-style" title="Github" >github</span></a>
+      <a href="http://youtube.com/user/haskelllivetv"><span class="ss-social-circle has-tip tip-top no-style" title="YouTube">youtube</span></a>
+    </p>
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+  <!-- Included JS Files (Compressed) -->
+  <script src="/javascripts/jquery.min.js"></script>
+  <script src="/javascripts/foundation.min.js"></script>
+
+  <!-- Application Javascript, safe to override -->
+  <script src="/javascripts/app.js"></script>
+
+</body>
+</html>
