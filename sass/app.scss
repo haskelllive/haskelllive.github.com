@@ -21,19 +21,21 @@
    Shared Styles
 ----------------------------------------- */
 
-pre {
-  margin-bottom: 19px;
-  line-height: 1.4;
-  background: $highlightColor;
-  padding: 3px 9px;
+article {
+  pre {
+    margin-bottom: 19px;
+    line-height: 1.4;
+    background: $highlightColor;
+    padding: 3px 9px;
 
-  code { background: transparent; }
+    code { background: transparent; }
+  }
+
+  .big { font-size: ms(2); }
+  .bright { color: $mainColor; }
+
+  .centered { text-align: center; }
 }
-
-.big { font-size: ms(2); }
-.bright { color: $mainColor; }
-
-.centered { text-align: center; }
 
 ul.unstyled, ol.unstyled { margin-left: 0; list-style: none; }
 

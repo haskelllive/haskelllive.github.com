@@ -1,0 +1,47 @@
+---
+layout: post
+title: "My Environment"
+---
+
+
+<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+
+<p>
+  I use <a href="http://en.wikipedia.org/wiki/Tmux">Tmux</a> for split panes and windows.
+  Brian Hogan wrote a great book on Tmux called
+  <a href="http://pragprog.com/book/bhtmux/tmux">tmux: Productive Mouse-Free Development</a>.
+  You should read it.
+</p>
+
+<p>
+  I use a number of vim plugins:
+</p>
+<ul class="disc">
+  <li>
+    <a href="http://github.com/lukerandall/haskellmode-vim">haskellmode-vim</a>
+    for <kbd>_</kbd> <kbd>t</kbd> and <kbd>_</kbd> <kbd>T</kbd> (show type
+    and insert type), among other things.
+  </li>
+  <li>
+    <a href="https://github.com/eagletmt/ghcmod-vim">ghcmod-vim</a>
+    for HLint and HCheck, also used by Syntastic and NeoComplCache.
+  </li>
+  <li>
+    <a href="https://github.com/ujihisa/neco-ghc">neco-ghc</a>
+    uses ghcmod-vim for nifty Haskell completion, powered by
+    <a href="https://github.com/Shougo/neocomplcache">neocomplcache</a>.
+  </li>
+  <li>
+    <a href="https://github.com/scrooloose/syntastic/">Syntastic</a>
+    automatic syntax checking for vim.
+  </li>
+</ul>
+
+<p>
+  I also use
+  <a href="https://github.com/guard/guard/">guard</a>
+  and
+  <a href="https://github.com/guard/guard-shell">guard-shell</a>
+  to automatically compile and run tests. Here's my
+  <a href="https://github.com/haskelllive/haskelllive/blob/master/Guardfile">Guardfile</a>.
+</p>

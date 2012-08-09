@@ -13,45 +13,42 @@
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
-/* line 24, ../sass/app.scss */
-pre {
+/* line 25, ../sass/app.scss */
+article pre {
   margin-bottom: 19px;
   line-height: 1.4;
   background: rgba(255, 255, 255, 0.03);
   padding: 3px 9px;
 }
-/* line 30, ../sass/app.scss */
-pre code {
+/* line 31, ../sass/app.scss */
+article pre code {
   background: transparent;
 }
-
-/* line 33, ../sass/app.scss */
-.big {
+/* line 34, ../sass/app.scss */
+article .big {
   font-size: 26px;
 }
-
-/* line 34, ../sass/app.scss */
-.bright {
+/* line 35, ../sass/app.scss */
+article .bright {
   color: #ff4557;
 }
-
-/* line 36, ../sass/app.scss */
-.centered {
+/* line 37, ../sass/app.scss */
+article .centered {
   text-align: center;
 }
 
-/* line 38, ../sass/app.scss */
+/* line 40, ../sass/app.scss */
 ul.unstyled, ol.unstyled {
   margin-left: 0;
   list-style: none;
 }
 
-/* line 40, ../sass/app.scss */
+/* line 42, ../sass/app.scss */
 .row {
   min-width: 670px;
 }
 
-/* line 42, ../sass/app.scss */
+/* line 44, ../sass/app.scss */
 .label {
   text-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
@@ -59,43 +56,43 @@ ul.unstyled, ol.unstyled {
   box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
 }
 
-/* line 47, ../sass/app.scss */
+/* line 49, ../sass/app.scss */
 .label.tertiary {
   background-color: #747e87;
   color: #373c40;
 }
 
-/* line 52, ../sass/app.scss */
+/* line 54, ../sass/app.scss */
 body {
   background: #373c40 url("/images/grey_noise_diagonal.png");
   font-family: "brevia", Brevia, Arial, sans-serif;
 }
 
-/* line 57, ../sass/app.scss */
+/* line 59, ../sass/app.scss */
 h1, h2, h3, h4, h5 {
   text-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
 }
 
-/* line 61, ../sass/app.scss */
+/* line 63, ../sass/app.scss */
 h1 {
   font-family: "prenton", 'Helvetica Neue', Helvetica, Arial, sans-serif;
   letter-spacing: -0.03em;
   font-weight: 700;
 }
 
-/* line 67, ../sass/app.scss */
+/* line 69, ../sass/app.scss */
 a:hover {
   color: #d83a49;
 }
 
-/* line 69, ../sass/app.scss */
+/* line 71, ../sass/app.scss */
 .giant {
   font-size: 48px;
   margin-bottom: 0;
   line-height: 1;
 }
 
-/* line 71, ../sass/app.scss */
+/* line 73, ../sass/app.scss */
 .important {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -105,58 +102,58 @@ a:hover {
   background: rgba(255, 255, 255, 0.03);
 }
 
-/* line 76, ../sass/app.scss */
+/* line 78, ../sass/app.scss */
 a.important:hover {
   background: rgba(255, 255, 255, 0.06);
 }
 
-/* line 80, ../sass/app.scss */
+/* line 82, ../sass/app.scss */
 .has-tip.no-style {
   border-bottom: none;
   cursor: inherit;
   color: inherit;
 }
 
-/* line 86, ../sass/app.scss */
+/* line 88, ../sass/app.scss */
 .tooltip > .nub {
   left: 18px !important;
 }
 
-/* line 93, ../sass/app.scss */
+/* line 95, ../sass/app.scss */
 body > header ul.link-list.nav {
   margin: 10px 0;
 }
-/* line 96, ../sass/app.scss */
+/* line 98, ../sass/app.scss */
 body > header ul.link-list.nav li {
   margin-left: 0;
   margin-right: 9px;
 }
-/* line 101, ../sass/app.scss */
+/* line 103, ../sass/app.scss */
 body > header ul.link-list.nav a {
   padding: 3px 8px;
   display: inline-block !important;
   color: #747e87;
 }
-/* line 105, ../sass/app.scss */
+/* line 107, ../sass/app.scss */
 body > header ul.link-list.nav a:hover {
   color: #ff4557;
 }
-/* line 109, ../sass/app.scss */
+/* line 111, ../sass/app.scss */
 body > header h1 {
   text-align: center;
   color: #b5f1e5;
   margin: 0;
   font-size: 112px;
 }
-/* line 112, ../sass/app.scss */
+/* line 114, ../sass/app.scss */
 body > header h1 a {
   color: #b5f1e5;
 }
-/* line 113, ../sass/app.scss */
+/* line 115, ../sass/app.scss */
 body > header h1 a:hover {
   color: #acfaeb;
 }
-/* line 118, ../sass/app.scss */
+/* line 120, ../sass/app.scss */
 body > header h4.subheader {
   margin-top: -0.6em;
   font-style: italic;
@@ -165,11 +162,11 @@ body > header h4.subheader {
   color: #747e87;
 }
 
-/* line 129, ../sass/app.scss */
+/* line 131, ../sass/app.scss */
 section article h2 {
   font-weight: 600;
 }
-/* line 133, ../sass/app.scss */
+/* line 135, ../sass/app.scss */
 section article .flex-video {
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
@@ -179,20 +176,20 @@ section article .flex-video {
 /* -----------------------------------------
    Episode List
 ----------------------------------------- */
-/* line 145, ../sass/app.scss */
+/* line 147, ../sass/app.scss */
 ul.episodes li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.03);
 }
-/* line 147, ../sass/app.scss */
+/* line 149, ../sass/app.scss */
 ul.episodes li:last-child {
   border-bottom: none;
 }
-/* line 149, ../sass/app.scss */
+/* line 151, ../sass/app.scss */
 ul.episodes li h4 {
   font-size: 16px;
   margin-bottom: 0;
 }
-/* line 154, ../sass/app.scss */
+/* line 156, ../sass/app.scss */
 ul.episodes li p {
   font-size: 14px;
 }
@@ -213,7 +210,7 @@ ul.episodes li p {
   font-style: normal;
 }
 
-/* line 182, ../sass/app.scss */
+/* line 184, ../sass/app.scss */
 .ss-icon, [class^="ss-"]:before, [class*=" ss-"]:before,
 .ss-icon.ss-standard, [class^="ss-"].ss-standard:before, [class*=" ss-"].ss-standard:before {
   font-family: "SSStandard";
@@ -246,7 +243,7 @@ ul.episodes li p {
   font-style: normal;
 }
 
-/* line 219, ../sass/app.scss */
+/* line 221, ../sass/app.scss */
 .ss-social, .ss-social-circle {
   font-family: "SSSocial";
   font-style: normal;
@@ -262,12 +259,12 @@ ul.episodes li p {
   font-feature-settings: "liga", "dlig";
 }
 
-/* line 234, ../sass/app.scss */
+/* line 236, ../sass/app.scss */
 .ss-social-circle {
   font-weight: bold;
 }
 
-/* line 238, ../sass/app.scss */
+/* line 240, ../sass/app.scss */
 .ss-icon, .ss-social, .ss-social-circle {
   line-height: 1;
   vertical-align: middle;
@@ -276,254 +273,254 @@ ul.episodes li p {
 /* -----------------------------------------
    Pygments Tomorrow Night Bright
 ----------------------------------------- */
-/* line 247, ../sass/app.scss */
+/* line 249, ../sass/app.scss */
 .highlight {
   color: #eaeaea;
 }
 
-/* line 248, ../sass/app.scss */
+/* line 250, ../sass/app.scss */
 .highlight .hll {
   background-color: #424242;
 }
 
-/* line 249, ../sass/app.scss */
+/* line 251, ../sass/app.scss */
 .highlight .c {
   color: #969896;
 }
 
 /* Comment */
-/* line 250, ../sass/app.scss */
+/* line 252, ../sass/app.scss */
 .highlight .k {
   color: #c397d8;
 }
 
 /* Keyword */
-/* line 251, ../sass/app.scss */
+/* line 253, ../sass/app.scss */
 .highlight .cm {
   color: #969896;
 }
 
 /* Comment.Multiline */
-/* line 252, ../sass/app.scss */
+/* line 254, ../sass/app.scss */
 .highlight .cp {
   color: #969896;
 }
 
 /* Comment.Preproc */
-/* line 253, ../sass/app.scss */
+/* line 255, ../sass/app.scss */
 .highlight .c1 {
   color: #969896;
 }
 
 /* Comment.Single */
-/* line 254, ../sass/app.scss */
+/* line 256, ../sass/app.scss */
 .highlight .cs {
   color: #969896;
 }
 
 /* Comment.Special */
-/* line 255, ../sass/app.scss */
+/* line 257, ../sass/app.scss */
 .highlight .gd {
   color: #d54e53;
 }
 
 /* Generic.Deleted */
-/* line 256, ../sass/app.scss */
+/* line 258, ../sass/app.scss */
 .highlight .gh {
   color: #eaeaea;
   font-weight: bold;
 }
 
 /* Generic.Heading */
-/* line 257, ../sass/app.scss */
+/* line 259, ../sass/app.scss */
 .highlight .gi {
   color: #b9ca4a;
 }
 
 /* Generic.Inserted */
-/* line 258, ../sass/app.scss */
+/* line 260, ../sass/app.scss */
 .highlight .gp {
   color: #969896;
   font-weight: bold;
 }
 
 /* Generic.Prompt */
-/* line 259, ../sass/app.scss */
+/* line 261, ../sass/app.scss */
 .highlight .gu {
   color: #70c0b1;
   font-weight: bold;
 }
 
 /* Generic.Subheading */
-/* line 260, ../sass/app.scss */
+/* line 262, ../sass/app.scss */
 .highlight .kc {
   color: #c397d8;
 }
 
 /* Keyword.Constant */
-/* line 261, ../sass/app.scss */
+/* line 263, ../sass/app.scss */
 .highlight .kd {
   color: #c397d8;
 }
 
 /* Keyword.Declaration */
-/* line 262, ../sass/app.scss */
+/* line 264, ../sass/app.scss */
 .highlight .kn {
   color: #c397d8;
 }
 
 /* Keyword.Namespace */
-/* line 263, ../sass/app.scss */
+/* line 265, ../sass/app.scss */
 .highlight .kp {
   color: #c397d8;
 }
 
 /* Keyword.Pseudo */
-/* line 264, ../sass/app.scss */
+/* line 266, ../sass/app.scss */
 .highlight .kr {
   color: #c397d8;
 }
 
 /* Keyword.Reserved */
-/* line 265, ../sass/app.scss */
+/* line 267, ../sass/app.scss */
 .highlight .kt {
   color: #e7c547;
 }
 
 /* Keyword.Type */
-/* line 266, ../sass/app.scss */
+/* line 268, ../sass/app.scss */
 .highlight .s {
   color: #b9ca4a;
 }
 
 /* Literal.String */
-/* line 267, ../sass/app.scss */
+/* line 269, ../sass/app.scss */
 .highlight .nb {
   color: #d54e53;
 }
 
 /* Name.Builtin */
-/* line 268, ../sass/app.scss */
+/* line 270, ../sass/app.scss */
 .highlight .nc {
   color: #e7c547;
 }
 
 /* Name.Class */
-/* line 269, ../sass/app.scss */
+/* line 271, ../sass/app.scss */
 .highlight .no {
   color: #b9ca4a;
 }
 
 /* Name.Constant */
-/* line 270, ../sass/app.scss */
+/* line 272, ../sass/app.scss */
 .highlight .nd {
   color: #70c0b1;
 }
 
 /* Name.Decorator */
-/* line 271, ../sass/app.scss */
+/* line 273, ../sass/app.scss */
 .highlight .ne {
   color: #d54e53;
 }
 
 /* Name.Exception */
-/* line 272, ../sass/app.scss */
+/* line 274, ../sass/app.scss */
 .highlight .nf {
   color: #7aa6da;
 }
 
 /* Name.Function */
-/* line 273, ../sass/app.scss */
+/* line 275, ../sass/app.scss */
 .highlight .nn {
   color: #e7c547;
 }
 
 /* Name.Namespace */
-/* line 274, ../sass/app.scss */
+/* line 276, ../sass/app.scss */
 .highlight .nt {
   color: #7aa6da;
 }
 
 /* Name.Tag */
-/* line 275, ../sass/app.scss */
+/* line 277, ../sass/app.scss */
 .highlight .w {
   color: #eaeaea;
 }
 
 /* Text.Whitespace */
-/* line 276, ../sass/app.scss */
+/* line 278, ../sass/app.scss */
 .highlight .sb {
   color: #b9ca4a;
 }
 
 /* Literal.String.Backtick */
-/* line 277, ../sass/app.scss */
+/* line 279, ../sass/app.scss */
 .highlight .sc {
   color: #eaeaea;
 }
 
 /* Literal.String.Char */
-/* line 278, ../sass/app.scss */
+/* line 280, ../sass/app.scss */
 .highlight .sd {
   color: #b9ca4a;
 }
 
 /* Literal.String.Doc */
-/* line 279, ../sass/app.scss */
+/* line 281, ../sass/app.scss */
 .highlight .s2 {
   color: #b9ca4a;
 }
 
 /* Literal.String.Double */
-/* line 280, ../sass/app.scss */
+/* line 282, ../sass/app.scss */
 .highlight .se {
   color: #b9ca4a;
 }
 
 /* Literal.String.Escape */
-/* line 281, ../sass/app.scss */
+/* line 283, ../sass/app.scss */
 .highlight .sh {
   color: #b9ca4a;
 }
 
 /* Literal.String.Heredoc */
-/* line 282, ../sass/app.scss */
+/* line 284, ../sass/app.scss */
 .highlight .si {
   color: #b9ca4a;
 }
 
 /* Literal.String.Interpol */
-/* line 283, ../sass/app.scss */
+/* line 285, ../sass/app.scss */
 .highlight .sx {
   color: #b9ca4a;
 }
 
 /* Literal.String.Other */
-/* line 284, ../sass/app.scss */
+/* line 286, ../sass/app.scss */
 .highlight .sr {
   color: #b9ca4a;
 }
 
 /* Literal.String.Regex */
-/* line 285, ../sass/app.scss */
+/* line 287, ../sass/app.scss */
 .highlight .s1 {
   color: #b9ca4a;
 }
 
 /* Literal.String.Single */
-/* line 286, ../sass/app.scss */
+/* line 288, ../sass/app.scss */
 .highlight .ss {
   color: #b9ca4a;
 }
 
 /* Literal.String.Symbol */
-/* line 287, ../sass/app.scss */
+/* line 289, ../sass/app.scss */
 .highlight .bp {
   color: #d54e53;
 }
 
 /* Name.Builtin.Pseudo */
-/* line 288, ../sass/app.scss */
+/* line 290, ../sass/app.scss */
 .highlight .vi {
   color: #d54e53;
 }
