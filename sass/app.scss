@@ -21,6 +21,11 @@
    Shared Styles
 ----------------------------------------- */
 
+.big { font-size: ms(2); }
+.bright { color: $mainColor; }
+
+.centered { text-align: center; }
+
 article {
   pre {
     margin-bottom: 19px;
@@ -30,11 +35,6 @@ article {
 
     code { background: transparent; }
   }
-
-  .big { font-size: ms(2); }
-  .bright { color: $mainColor; }
-
-  .centered { text-align: center; }
 }
 
 ul.unstyled, ol.unstyled { margin-left: 0; list-style: none; }
